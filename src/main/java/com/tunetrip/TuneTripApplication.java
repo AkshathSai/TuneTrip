@@ -1,4 +1,4 @@
-package com.tunetrip.tunetrip;
+package com.tunetrip;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.tunetrip.tunetrip;
+package com.tunetrip;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

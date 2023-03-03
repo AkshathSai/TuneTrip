@@ -16,8 +16,7 @@ public class WebController {
 
     @GetMapping
     public String index(Model model) {
-        //System.out.println(youTube.channelVideos("UCVVgeban0nTK3mZW5LhINEw", 10, YouTube.Sort.VIEW_COUNT));
-        model.addAttribute("channelVideos", youTube.channelVideos("UCVVgeban0nTK3mZW5LhINEw", 10, YouTube.Sort.VIEW_COUNT));
+        model.addAttribute("channelVideos", youTube.channelVideos("#YOUR_CHANNEL_ID#", 10, YouTube.Sort.VIEW_COUNT));
         return "index";
     }
 
